@@ -7,7 +7,81 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
-    background-color: red;
+    /*background-color: blue;*/
     font-family: 'Playfair Display', sans-serif;
 }
 
+header{
+    position: fixed;
+    top: 0;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 240px;
+    background-color: #272d3467;
+    z-index: 1;
+}
+
+.logo{
+    width: 200px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+.logo-img{
+    width: 40%;
+    height: auto;
+}
+
+.logo-text{
+    color: #fff;
+    font-size: 2rem;
+}
+
+.logo-text:hover{
+    color: #cdba6d;
+
+}
+
+nav{
+    width: 60%;
+}
+
+ul{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li {
+    font-size: 1.1rem;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+li:hover{
+    color: #cdba6d;
+    cursor: pointer;
+}
+
+#search-icon{
+    color: #fff;
+    cursor: pointer;
+}
+
+#search-icon:hover{
+    color: #cdba6d;
+}
+
+#menu-icon{
+    display: none;
+    font-size: 2rem;
+    color: #fff;
+    cursor: pointer;
+}
