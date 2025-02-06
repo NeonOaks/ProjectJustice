@@ -783,3 +783,20 @@ li:hover{
     font-size: 0.9rem;
 }
 
+@media (max-width: 1440px) {
+   .content {
+    padding: 0 90;
+   }
+
+   #square-3 {
+    padding: 0 60px;
+   }
+
+   .testimonials-cards-container{
+    padding: 0 100px;
+   }
+
+   .post-content{
+    padding: 0 55px 0 10px;
+   }
+}
