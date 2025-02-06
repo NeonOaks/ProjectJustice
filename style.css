@@ -408,6 +408,7 @@ li:hover{
 }
 
 .service-description{
+    display: block;
     color: #fff;
     font-family: 'Poppins',sans-serif;
     font-size: 1.1rem;
@@ -816,5 +817,52 @@ li:hover{
 
   footer{
     padding: 220px 60px 80px 60px;
+  }
+
+  @media (max-width: 1024px){
+    .destaks-container{
+      padding: 0 15px;
+    }
+
+    .destaks-span{
+      font-size: 2.3rch;
+      font-weight: bold;
+    }
+
+    .our-services-container{
+      padding: 0;
+    }
+
+    .service-description{
+      display: block;
+    }
+
+    .content{
+      padding: 0 60px;
+    }
+
+    #square-3{
+      padding: 0 40px;
+    }
+
+    .testimonials-cards-container{
+      padding: 0 50px;
+    }
+
+    .form-container{
+      padding: 0 0 20px;
+    }
+
+    .form-title h2{
+      margin-top: -50px;
+    }
+
+    #form-divider{
+      width: 350px;
+    }
+
+    footer{
+      padding:  220px 30px 80px 30px;
+    }
   }
 }
